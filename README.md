@@ -1,25 +1,13 @@
-# Tiktok Clone (tiktok-clone)
+# Shinkansen (tiktok-clone)
 
-### Learn how to build this!
+### For this Shinkansen to work you'll need the API/Backend:
 
-If you'd like a step-by-step guide on how to build this just **CLICK THE IMAGE BELOW**
-
-[![GO TO JOHN WEEKS DEV TUTORIAL VIDEOS](https://user-images.githubusercontent.com/108229029/226175392-1ffef6e7-4f34-41ee-889a-0b438aca69d6.png)](https://www.youtube.com/watch?v=CHSL0Btbj_o)
-
-Come and check out my YOUTUBE channel for lots more tutorials -> https://www.youtube.com/@johnweeksdev
-
-**LIKE**, **SUBSCRIBE**, and **SMASH THE NOTIFICATION BELL**!!!
-
-## NOTE
-
-### For this Tiktok Clone to work you'll need the API/Backend:
-
-Tiktok Clone API: https://github.com/John-Weeks-Dev/tiktok-clone-api
+Shinkansen API: https://github.com/nur1labs/shinkansen-api
 
 ## App Setup
 
 ```
-git clone https://github.com/John-Weeks-Dev/tiktok-clone.git
+gh repo clone nur1labs/shinkansen
 
 npm i
 
