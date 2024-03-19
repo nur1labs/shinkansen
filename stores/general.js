@@ -83,6 +83,15 @@ export const useGeneralStore = defineStore('general', {
       }
     },
 
+      async getRandomPost() {
+          let res = await $axios.get('/api/home')
+
+          let postTemp = this.posts;
+
+          postTemp.array.push(res)
+           postTemp = this.posts;
+      },
+
     async getAllUsersAndPosts() {
       let res = await $axios.get('/api/home')
       this.posts = res.data
