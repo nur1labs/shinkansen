@@ -21,4 +21,5 @@ let icon = ref('')
 if (iconString.value === 'For You') icon.value = 'mdi:home'
 if (iconString.value === 'Following') icon.value = 'ci:group'
 if (iconString.value === 'LIVE') icon.value = 'ri:live-line'
+if (iconString.value === 'Connect Wallet') icon.value = 'mdi:wallet-bifold-outline'
 </script>
